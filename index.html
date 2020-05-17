@@ -1,134 +1,243 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Website Design</title>
-      <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Abril Fatface&display=swap" rel="stylesheet">
-     
-      <link href="style/home.css" rel="stylesheet" media="screen">
+<head>
+    <title>Geolocation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <style>
+    /* Style the body */
+    body {
+        font-family: 'Balsamiq Sans', cursive;
+        /* margin: 10px; */
+        text-align: center;
+    }
+    /* Header/Logo Title */
+    .header {
+        background-size: 100% 100%;
+        padding-top:20px;
+        background: #685489;
+        color: white;
+        font-size: 50px;
+    }
+    .header .head1 {
+        font-family: 'Monoton', cursive;
+        font-size: 50px;
+    }
+    .head-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        margin-top: -50px;
+    }
+    .grid-item{
+        text-align: right;
+        
+    }
+    .grid-item-content{
+        text-align: left;
+        padding-top: 20px;
+    }
 
-     
-        </head>
+    .header .head2 {
+        font-family: 'Bubblegum Sans', cursive;
+        font-size: 20px;
+    }
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
 
-        <body>
-  <!-- Links (sit on top) -->
-  
-    <nav class="topnav" id="myTopnav">
-        <!-- <div id="businame" class="businame">
-            <h1><img src="images/logo.jpg" alt="logo">Scissors & Brush</h1>
-        </div> -->
-        <!--logo-->
-        <a href="#" id="logo" class="logo">Scissors & Brush</a>
-        <ul  class="navlink">
-            <li><a href="index.html" id="menu">Home</a></li>
-            <li><a href="services.html" id="menu">Services</a></li>
-            <li><a href="about.html" id="menu">About</a></li>
-            <li><a href="contact.html" id="menu">Contact</a></li>
-            <!-- <a  id="menu">|</a>
-          
-            <a href="https://www.facebook.com/faithtsawyer/" id="icon1"><img src="images/facebook.png" alt="facebook link"></a>
-            <a href="https://www.instagram.com/faithtrigosawyer/?hl=en" id="icon2"><img src="images/instagram.png" alt="instagram link"></a>
-            <a href="https://www.youtube.com/channel/UCnAQDG3IP28f6zC62VJsFwA" id="icon3"><img src="images/youtube.png" alt="youtube link"></a>
-            <a href="https://ca.linkedin.com/in/faith-trigo-sawyer-maefaith2000-yahoo-com-033b2ab1" id="icon4"><img src="images/linkedin.png" alt="linkedin link"></a> -->
-            
-          </ul>
-      </nav>
 
-      <!-- Content 1 -->
-      <div id="wrap">
-        <div class="gallery">
-            <img src="images/gallery1.jpg">
-            <div class="main_text">Elegance. Hair Salon</div>
-            <div class="sub_text">City of London</div>
-        </div>
-        <div class="services">
-                <ul>
-                    <li><a href="#" id="serve"><img src="images/services1.jpg"></a>
-                    </li>
-                    <li><a href="#" id="serve"><img src="images/services2.jpg"></a>
-                    </li>
-                    <li><a href="#" id="serve"><img src="images/services3.jpg"></a>
-                    </li>
-                    <li><a href="#" id="serve"><img src="images/services4.jpg"></a>
-                    </li>
-                </ul>
-        </div>
 
-        <div id="about">
-          <main>
-              <p>A LUXURY SALON EXPERIENCE IN THE HEART OF LONDON. </p>
-          </main>
 
-          <aside>
-              <h2>SCISSORS & BRUSH SALON IS THE PERFECT PLACE TO GET AN EXCEPTIONAL HAIRSTYLE FROM TRAINED STYLISTS AND COLORISTS.</h2>
-              
-              <p>
-                  Situated in the heart of London, our two boutique salons serve Suburbs and the City District. We are the most recommended salon for hotels and restaurants in Downtown and Victoria Park neighborhoods.Our salon provides services to men and women of any hair type and style: edgy or classic, straight or curly, short or long. We believe that hair should be defined by its nature and its shape, and we use the industry's top brand, Keratase to bring out your hair's best.  </p>
-          </aside>
-        </div>
+    /* Page Content */
+    .content {padding:20px;text-align: left;}
 
-        <div class="social">
-          <ul>
-            <li><a href="https://www.instagram.com/p/BvOlKthHMf1/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal1.jpg"></a>
-            </li>
-            <li><a href="https://www.instagram.com/p/BZyUMxrFgay/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal2.jpg"></a>
-            </li>
-            <li><a href="https://www.instagram.com/p/BlsVAiFFLAA/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal3.jpg"></a>
-            </li>
-            <li><a href="https://www.instagram.com/p/BVM5ilAFUhk/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal4.jpg"></a>
-            </li>
-            <li><a href="https://www.instagram.com/p/BprV6koHRlV/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal5.jpg"></a>
-            </li>
-            <li><a href="https://www.instagram.com/p/Bz0JlpeH5_7/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal6.jpg"></a>
-            </li>
-        </ul>
-        <ul>
-            <li><a href="https://www.instagram.com/p/ByU9s3RnNdX/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal7.jpg"></a>
-            </li>
-            <li><a href="https://www.instagram.com/p/BwrTub6HBgB/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal8.jpg"></a>
-            </li>
-            <li><a href="https://www.instagram.com/p/ByP8pLWnUjg/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal9.jpg"></a>
-            </li>
-            <li><a href="https://www.instagram.com/p/BmN1mqKlBp0/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal10.jpg"></a>
-            </li>
-            <li><a href="https://www.instagram.com/p/BUgE-VyFKI0/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal11.jpg"></a>
-            </li>
-            <li><a href="https://www.instagram.com/p/BZKMxodlnUv/?utm_source=ig_web_copy_link" id="serve"><img src="images/gal12.jpg"></a>
-            </li>
-        </ul>
+    .input-container {
+        background-color:lightgray;
+        width:600px;
+        height: 150px;
+        background-color: #FFFFFF;
+        border-radius:5px;
+        box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    }
+    .input-header {
+        background-color:	#976393;
+        color: white;
+        padding: 10px;
+    }
+    #txtautocomplete {
+        width: 400px;
+        height: 20px;
+        font-size: 16px;
+    }
+    input {
+          width: 100px;
+          height: 20px;
+          padding: 0px;
+          border: 1px solid #ccc;
+          resize: vertical;
+        }
+    .button {
+        border-radius: 4px;
+        background-color:#ff9b83;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+        width: 90px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        }
+
+        .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        }
+
+        .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+
+        .button:hover span {
+        padding-right: 25px;
+        }
+
+        .button:hover span:after {
+        opacity: 1;
+        right: 0;
+        }
+   .map {
+       position:inherit;
+    width:100%;height:400px;
+    padding-top: 50px;
+   }
+
+   footer {
+        text-align: center;
+        padding: 3px;
+        background-color:	#43457f;
+        color: white;
+    }
+    footer a{
+        color: white;
+    }
+    </style>
+
+
+
+     <!--add library--> 
+   <!-- <script type="text/javascript" src="https://www.google.com/jsapi"></script> -->
+   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWHBZ_bIRWMzSy6K2VqPiDbr45zTZOXW4&libraries=places">
+   </script>
+   <!--process address-->
+   <script>
+      google.maps.event.addDomListener( window, "load", init ); 
+       function init() {
+           var autocomplete = new google.maps.places.Autocomplete(document.getElementById("txtautocomplete"));
+           google.maps.event.addListener(autocomplete,'place_changed',function(){
+               var places = autocomplete.getPlace();
+               var location =  places.formatted_address + "<br/>";
+               
+                document.getElementById('lblresult').innerHTML = location;
+
+                document.getElementById('lat').value = places.geometry.location.lat();
+                document.getElementById('long').value = places.geometry.location.lng();
+
+           });
+           
+       };  
+
+       // maps
+        function myMap() {
+            var lat = document.getElementById('lat').value;
+            var long = document.getElementById('long').value;
+        var mapProp= {
+        center:new google.maps.LatLng(lat, long),
+        zoom:5,
+        };
+
+         var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+       
+
+        //push marker
+        var  marker = [ ];
+                marker.push(
+                new google.maps.Marker( {
+                position: new google.maps.LatLng( lat, long ),
+                map: map,
+                draggable: true,
+                title: "Location searched."
+                } )
+            );
+        
+            function createMarker(place) {
+        var marker = new google.maps.Marker({
+          map: map,
+          position: place.geometry.location
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.setContent(place.name);
+          infowindow.open(map, this);
+        });
+            }
+
+       
+
+    }
+   </script>
+</head>
+<body onload="myMap();">
+    <div class="header">
+        <p class="head1">KNOW YOUR LOCATION</p>
+        <div class="head-container">
+            <div class="grid-item"><img src="logo.gif"></div>
+            <div class="grid-item-content">
+                <p class="head2">Easy and fun!!!</p>
+            </div>
+
         </div>
     </div>
 
-  </div>
-  <footer>
-      <a id="f_content">Scissors & Brush
-      </a>
-      <a id="f_content">|
-      </a>
-      <a id="f_content">140 Ann st. London Ontario
-        </a>
-    <p id="foot">Contact Us <a href="mailto:scissorsnbrush@gmail.com">scissorsnbrush@gmail.com</a>
-      <a href="tel:5196944329">(519)694-4329</a>
-    </p>
-    <p id="Copyright">Copyright © 2018  - All Rights Reserved.
-      </p>
-  </footer>
+   
 
-  </div>
+    <div class="content">
+        <h1>Geolocation</h1>
+        <p>Identification or estimation of the real-world geographic location of an object, such as a radar source, mobile phone, or Internet-connected computer terminal.-wiki</p>
+      </div>
 
-  <script>
-    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("myTopnav").style.padding = "0px 10px";
-        document.getElementById("businame").style.fontSize = "25px";
-      } else {
-        document.getElementById("myTopnav").style.padding = "20px 10px";
-        document.getElementById("businame").style.fontSize = "35px";
-      }
-    }
-    </script>
-  </body>
+    <div class="input-container">
+        <div class="input-header">
+            <a>Location Data</a>
+          </div>
+        <span>Location</span> <input type="text" id="txtautocomplete" placeholder="Enter address..." /><br/><br/>
+        <label id="lblresult"></label>
+        <label >Latitude</label>
+        <input type="text" id="lat" name="latitude" >
+        <label >Longhitude</label>
+        <input type="text" id="long" name="longhitude">
+        <button class="button" onclick="myMap();"><span>Find </span></button>
+    </div>
+    <br/>
+    <div id="googleMap" class="map"></div>
+
+    <footer>
+        <p>knowyourlocation.com | Author: Jannel Laquihon<br>
+        <a href="mailto:laquihonjannel@yahoo.com">send email.</a></p>
+      </footer>
+</body>
 </html>
